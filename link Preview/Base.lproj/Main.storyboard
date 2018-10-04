@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter link" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LLG-6L-2Li">
+                                <rect key="frame" x="20" y="120" width="335" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJd-dh-RRd">
+                                <rect key="frame" x="163" y="170" width="49" height="30"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="btnSubmitAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WAn-qU-PHn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqk-FD-aJL">
+                                <rect key="frame" x="10" y="220" width="355" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discription" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0p-bY-CDs">
+                                <rect key="frame" x="10" y="250" width="355" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Url dfg sdg klsdjgkl fdg sdfg dfklsgj dfklgj kl fdjgkl dfjlgkdf" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THz-sY-Mrw">
+                                <rect key="frame" x="10" y="280.5" width="355" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y2U-13-Okj">
+                                <rect key="frame" x="10" y="331.5" width="355" height="325.5"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lQ9-YX-OtC">
+                                <rect key="frame" x="10" y="20" width="355" height="95"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES" shipmentTrackingNumber="YES" flightNumber="YES" lookupSuggestion="YES"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nJd-dh-RRd" firstAttribute="top" secondItem="LLG-6L-2Li" secondAttribute="bottom" constant="20" id="2Z5-PR-Xva"/>
+                            <constraint firstItem="Y2U-13-Okj" firstAttribute="top" secondItem="THz-sY-Mrw" secondAttribute="bottom" constant="10" id="4VT-G7-hp8"/>
+                            <constraint firstItem="lQ9-YX-OtC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="58M-46-GYP"/>
+                            <constraint firstItem="THz-sY-Mrw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="66l-GC-ncK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uqk-FD-aJL" secondAttribute="trailing" constant="10" id="7jb-Vn-GRF"/>
+                            <constraint firstItem="lQ9-YX-OtC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="97X-f6-16U"/>
+                            <constraint firstItem="uqk-FD-aJL" firstAttribute="top" secondItem="nJd-dh-RRd" secondAttribute="bottom" constant="20" id="9K4-m1-Fzm"/>
+                            <constraint firstItem="LLG-6L-2Li" firstAttribute="top" secondItem="lQ9-YX-OtC" secondAttribute="bottom" constant="5" id="IEP-h6-xye"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LLG-6L-2Li" secondAttribute="trailing" constant="20" id="IVh-G2-2Lh"/>
+                            <constraint firstItem="nJd-dh-RRd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kzd-nN-dkA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Y2U-13-Okj" secondAttribute="trailing" constant="10" id="N9y-nG-o8U"/>
+                            <constraint firstItem="LLG-6L-2Li" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Pc4-WZ-8Gm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y2U-13-Okj" secondAttribute="bottom" constant="10" id="Sq8-1S-6uu"/>
+                            <constraint firstItem="THz-sY-Mrw" firstAttribute="top" secondItem="a0p-bY-CDs" secondAttribute="bottom" constant="10" id="UT1-9V-CYo"/>
+                            <constraint firstItem="Y2U-13-Okj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="YM0-vG-Vfo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="THz-sY-Mrw" secondAttribute="trailing" constant="10" id="ccu-0b-5qX"/>
+                            <constraint firstItem="LLG-6L-2Li" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="dWX-gG-lOd"/>
+                            <constraint firstItem="a0p-bY-CDs" firstAttribute="top" secondItem="uqk-FD-aJL" secondAttribute="bottom" constant="10" id="oM0-lz-p6I"/>
+                            <constraint firstItem="a0p-bY-CDs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="pAS-j2-8Ky"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lQ9-YX-OtC" secondAttribute="trailing" constant="10" id="uvb-mj-vDY"/>
+                            <constraint firstItem="uqk-FD-aJL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="uyX-jg-MwN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="a0p-bY-CDs" secondAttribute="trailing" constant="10" id="vcB-MG-Oha"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="img_View" destination="Y2U-13-Okj" id="Ulx-Cf-kTH"/>
+                        <outlet property="lblDiscription" destination="a0p-bY-CDs" id="uso-me-94a"/>
+                        <outlet property="lblTitle" destination="uqk-FD-aJL" id="LI5-8d-WJm"/>
+                        <outlet property="lblUrl" destination="THz-sY-Mrw" id="y6x-JG-Z7o"/>
+                        <outlet property="txtEnterLink" destination="LLG-6L-2Li" id="NDu-dQ-jXt"/>
+                        <outlet property="txtviewOrigenalText" destination="lQ9-YX-OtC" id="ryO-f2-bM6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+</document>
